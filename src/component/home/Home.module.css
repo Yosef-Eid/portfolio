@@ -47,8 +47,7 @@
 }
 @media screen and (max-width: 360px) {
     .home .name{
-        font-size: 30px;
-    
+        font-size: 20px;
     }
 
     .home #c{

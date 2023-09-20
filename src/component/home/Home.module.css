@@ -38,6 +38,20 @@
     }
 }
 
+@media screen and (max-width: 400px ) {
+    .home .name{
+    font-size: 30px;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home .name{
+    font-size: 30px;
+
+    }
+}
+
 .home .jobs{
     height: 0;
     display: flex;
@@ -67,6 +81,23 @@
     }
 }
 
+@media (min-width: 361px) and (max-width: 400px) {
+    .home p{
+        font-size: 28px;
+        padding: 5px;
+        
+    }
+}
+
+
+@media (min-width: 401px) and (max-width: 450px) {
+    .home p{
+        font-size: 28px;
+        padding: 5px;
+        
+    }
+}
+
 
 .home .icon{
     width: 400px;
@@ -78,6 +109,22 @@
 }
 
 @media screen and (max-width: 360px) {
+    .home .icon{
+        width: 300px;
+    font-size: 30px;
+
+    }
+}
+
+@media (min-width: 361px) and (max-width: 400px) {
+    .home .icon{
+        width: 300px;
+    font-size: 30px;
+
+    }
+}
+
+@media (min-width: 401px) and (max-width: 450px) {
     .home .icon{
         width: 300px;
     font-size: 30px;
@@ -126,6 +173,29 @@
 }
 
 @media screen and (max-width: 360px) {
+    .home .icon .gmail{
+        scale:1.5;
+        margin-top:10px;
+    }
+
+    .home .icon .gmail:hover {
+        scale:1.7;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 400px) {
+    .home .icon .gmail{
+        scale:1.5;
+        margin-top:10px;
+    }
+
+    .home .icon .gmail:hover {
+        scale:1.7;
+    }
+}
+
+
+@media (min-width: 401px) and (max-width: 450px) {
     .home .icon .gmail{
         scale:1.5;
         margin-top:10px;

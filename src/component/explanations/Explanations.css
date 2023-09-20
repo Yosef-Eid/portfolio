@@ -59,6 +59,40 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    
+    #explanations{
+        padding: 80px 30px 100px 30px ;
+    
+    }
+
+    #explanations .card{
+        width: 340px;
+    }
+
+    #explanations h1{
+        font-size: 35px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    #explanations{
+        padding: 80px 30px 100px 50px ;
+    
+    }
+
+    #explanations .card{
+        width: 340px;
+    }
+
+    #explanations h1{
+        font-size: 35px;
+        color: white;
+    }
+}
+
 
 
 

@@ -45,13 +45,72 @@
         padding:30px;
         display: grid;
         align-items: start;
-        justify-content: center;
-        grid-template-columns: auto ;
+        justify-content: space-between;
+        grid-template-columns: auto auto  ;
     }
 
     .heder a{
         margin: 0;
         font-size: 12px;
+    }
+
+    .heder a img{
+        margin-left: 5px;
+    }
+
+    .heder p{
+        display: none;
+    }
+
+    .heder a:hover img{
+        scale: .8;
+        color: rgb(0, 234, 255);
+    }
+}
+
+
+@media (min-width: 361px) and (max-width: 400px) {
+    .heder{
+        font-size: 10px;
+        padding:30px;
+        display: grid;
+        align-items: start;
+        justify-content: space-between;
+        grid-template-columns: auto auto  ;
+    }
+
+    .heder a{
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .heder a img{
+        margin-left: 5px;
+    }
+
+    .heder p{
+        display: none;
+    }
+
+    .heder a:hover img{
+        scale: .8;
+        color: rgb(0, 234, 255);
+    }
+}
+
+@media (min-width: 401px) and (max-width: 450px) {
+    .heder{
+        font-size: 10px;
+        padding:30px 60px 30px 60px;
+        display: grid;
+        align-items: start;
+        justify-content: space-between;
+        grid-template-columns: auto auto  ;
+    }
+
+    .heder a{
+        margin: 0;
+        font-size: 15px;
     }
 
     .heder a img{

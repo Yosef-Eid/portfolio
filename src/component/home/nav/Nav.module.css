@@ -88,6 +88,59 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .nav{
+        display: inline;
+        align-items: center;
+        justify-content: space-between;   
+        text-align: center;
+        line-height: 55px;     
+        
+    }
+
+    .nav h1{
+        display: none;
+    }
+
+    .nav a{
+        font-size: 18px;
+        /* padding: 10px; */
+        margin: 5px;
+
+    }
+    
+    .nav button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav{
+        display: inline;
+        align-items: center;
+        justify-content: space-between;   
+        text-align: center;
+        line-height: 55px;     
+        
+    }
+
+    .nav h1{
+        display: none;
+    }
+
+    .nav a{
+        font-size: 18px;
+        /* padding: 10px; */
+        margin: 5px;
+
+    }
+    
+    .nav button{
+        display: none;
+    }
+}
+
+
 
 
 

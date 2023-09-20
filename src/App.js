@@ -22,7 +22,7 @@ function App() {
       <Skills/>
       <Works/>
       <Explanations/>
-      <Heder/>
+      {/* <Heder/> */}
 
       
     </div>

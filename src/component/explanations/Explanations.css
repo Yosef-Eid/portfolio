@@ -42,6 +42,23 @@
     scale: 1.1;
 }
 
+@media screen and (max-width: 480px) {
+    
+    #explanations{
+        padding: 80px 30px 100px 30px ;
+    
+    }
+
+    #explanations .card{
+        width: 300px;
+    }
+
+    #explanations h1{
+        font-size: 35px;
+        color: white;
+    }
+}
+
 
 
 

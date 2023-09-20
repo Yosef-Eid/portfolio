@@ -18,7 +18,7 @@ const Skills = () => {
                 <img src={html}/>
                 <img src={css}/>
                 <img src={javascript}/>
-                <img src={react} style={{width:"80px"}}/>
+                <img src={react} id='react' /* style={{width:"80px"}} *//>
                 <img src={figma}/>
                 <img src={github}/>
                 <img src={git}/>

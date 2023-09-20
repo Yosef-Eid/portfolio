@@ -4,12 +4,14 @@
     display: flex;
     align-items: start;
     flex-direction: column;
-
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    align-items: center; */
     padding: 15px 110px 50px 110px;
 
+}
+
+@media screen and (max-width: 480px) {
+    .about{
+        padding: 25px;
+    }
 }
 
 .about :nth-child(1){
@@ -29,6 +31,12 @@
     line-height: normal;
 }
 
+@media screen and (max-width: 480px) {
+    .about :nth-child(1) h1{
+        font-size: 40px;
+    }
+}
+
 .about :nth-child(1) :nth-child(2){
     color: #00D9E3;
     padding-left: 15px;
@@ -36,20 +44,16 @@
 }
 
 .about .p{
-   margin-top: -30px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   flex-direction: row;
-
-   /* display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-   align-items: center; */
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
 }
 
 .about .p p{
     width: 68%;
-    /* height: 203px; */
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -59,3 +63,31 @@
     font-family: system-ui;
 
 }
+
+.about .p img{
+    height: 300px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .about{
+        height: 700px;
+    }
+    .about .p p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .about .p img{
+        height: 200px;
+        position: absolute;
+        top:100%;
+        left: 30px;
+        /* margin-top: 600px; */
+    }
+
+    
+}
+
+
+

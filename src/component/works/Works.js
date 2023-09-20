@@ -26,7 +26,7 @@ let open = (e) => {
 
     return (
         <div className={style.father} id='works'>
-            <h1 style={{color:'white', fontSize:'55px'}}>my <span style={{color:'#00D9E3', fontSize:'55px'}}>works</span></h1>
+            <h1 >my <span>works</span></h1>
         <div className={style.works}>
             <div className={style.card}>
                 <img src={curser} className={style.todo} onClick={open}/>

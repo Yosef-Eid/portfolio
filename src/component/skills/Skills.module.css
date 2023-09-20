@@ -41,3 +41,32 @@
 .homeSkills .skills img:last-child{
     width: 80px;
 }
+
+@media screen and (max-width: 480px) {
+    .homeSkills{
+        padding: 30px;
+    }
+    .homeSkills h1{
+        color: #FFF;
+        font-size: 40px;
+    }
+    
+    .homeSkills .skills img{
+        width: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all .2s;
+    }
+    
+    .homeSkills .skills{
+        display: grid;
+        grid-template-columns:  auto auto auto auto;
+        gap: 40px;
+    }
+
+    .homeSkills .skills img:last-child{
+        width: 50px;
+    }
+    
+    
+}

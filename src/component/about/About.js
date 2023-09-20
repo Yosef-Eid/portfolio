@@ -17,7 +17,7 @@ const About = () => {
                     work and contact me to discuss how I can help turn your web development ideas into reality
                 </p>
 
-                <img src={stk} style={{ height:'300px'}}/>
+                <img src={stk} /* style={{ height:'300px'}} *//>
 
             </div>
         </div>

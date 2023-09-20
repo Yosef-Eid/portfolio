@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 361px) and (max-width: 400px) {
     
     #explanations{
         padding: 80px 30px 100px 30px ;
@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media (min-width: 401px) and (max-width: 450px) {
     
     #explanations{
         padding: 80px 30px 100px 50px ;

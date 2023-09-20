@@ -1,0 +1,61 @@
+.about{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-items: center; */
+    padding: 15px 110px 50px 110px;
+
+}
+
+.about :nth-child(1){
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.about :nth-child(1) h1{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about :nth-child(1) :nth-child(2){
+    color: #00D9E3;
+    padding-left: 15px;
+
+}
+
+.about .p{
+   margin-top: -30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+
+   /* display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   align-items: center; */
+}
+
+.about .p p{
+    width: 68%;
+    /* height: 203px; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #D7D7D7;
+    font-size: 21px;
+    font-family: system-ui;
+
+}

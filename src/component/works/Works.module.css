@@ -1,0 +1,142 @@
+
+.father{
+    width: 100%;
+    padding: 0px 110px 50px 110px ;
+}
+
+.works{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.works .card{
+    position: relative;
+    width: 300px;
+    height: 401px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #272727;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.works .card::after{
+    content: '';
+    position: absolute;  top: 0;
+    width: 1px;
+    height: 0%;
+    background: #dbdbdb;
+    transition: all .2s;
+}
+
+/* .works .card:hover:after{
+    height: 100%;
+} */
+
+.works .card .todo{
+    /* position: absolute; top: 0; */
+    width: 100%;
+    height: 250px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.works .card .todo:hover{
+    scale: 1.1;
+}
+.works .card .title{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+} 
+
+.works .card .title2{
+    width: 90%;
+    height: 0;
+    margin-top: -9px;
+    color: white;
+    font-family:system-ui;
+    font-size: 14px;
+    padding-left: 20px;
+} 
+
+.works .card .bottomCard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+}
+
+
+.works .card .bottomCard div a{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.works .card .bottomCard div a:hover{
+    color: aqua;
+}
+
+.works .card .bottomCard .bottom{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background: #00D9E3;
+    color: rgb(18, 18, 18);
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s;
+    font-size: 15px;
+}
+
+.works .card .bottomCard .bottom:hover{
+    box-shadow: 0 0 10px 0 #00d8e3b6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

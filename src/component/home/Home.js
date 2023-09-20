@@ -26,7 +26,7 @@ const Home = () => {
                 <a href="https://github.com/Yosef-Eidcd"><ion-icon name="logo-github" style={{color:'#231E1B', background:'white'}}></ion-icon></a>
                 <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src={gmail} className={style.gmail}/></a>
             </div>
-            <a href='https://yousef-eid.netlify.app' >
+            <a href='https://yousef-cv.netlify.app' >
                 <button id={style.c}  style={{breakAfter:'none'}}>Show CV</button>
             </a>
             </div>

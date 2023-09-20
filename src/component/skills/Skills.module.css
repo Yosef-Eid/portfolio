@@ -71,7 +71,7 @@
     
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 361px) and (max-width: 400px) {
     .homeSkills{
         padding: 30px;
     }
@@ -102,7 +102,38 @@
 
 
 
-@media screen and (max-width: 450px) {
+
+@media (min-width: 402px) and (max-width: 412px) {
+    .homeSkills{
+        padding: 50px;
+    }
+    .homeSkills h1{
+        color: #FFF;
+        font-size: 40px;
+    }
+    
+    .homeSkills .skills img{
+        width: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all .2s;
+    }
+    
+    .homeSkills .skills{
+        display: grid;
+        grid-template-columns:  auto auto auto auto;
+        gap: 40px;
+    }
+
+    .homeSkills .skills img:last-child{
+        width: 50px;
+    }
+    
+    
+}
+
+
+@media (min-width: 413px) and (max-width: 450px) {
     .homeSkills{
         padding: 30px;
     }

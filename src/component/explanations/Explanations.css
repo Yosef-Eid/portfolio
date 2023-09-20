@@ -76,7 +76,24 @@
     }
 }
 
-@media (min-width: 401px) and (max-width: 450px) {
+@media (min-width: 401px) and (max-width: 412px) {
+    
+    #explanations{
+        padding: 80px 30px 100px 35px ;
+    
+    }
+
+    #explanations .card{
+        width: 340px;
+    }
+
+    #explanations h1{
+        font-size: 35px;
+        color: white;
+    }
+}
+
+@media (min-width: 413px) and (max-width: 450px) {
     
     #explanations{
         padding: 80px 30px 100px 50px ;
